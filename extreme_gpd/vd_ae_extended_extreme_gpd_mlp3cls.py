@@ -96,7 +96,7 @@ class vieextExtremeGpd:
         ##for forked output
         predOutputs = np.zeros(predNormal.shape)
         
-        file_name=str('VD_AE_extended/'+file+'/_risk_test_wholeVIE{}.npy'.format(run_count))
+        file_name=str('results_classfctn/VD_AE_extended/'+file+'/_risk_test_wholeVIE{}.npy'.format(run_count))
         whole_result = np.load(file_name)
         
         result=np.argmax(whole_result, axis=1)
