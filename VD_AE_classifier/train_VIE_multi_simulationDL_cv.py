@@ -244,8 +244,8 @@ for (train_low, train_high), (test_low, test_high) in train_test_ranges:
     N = 10
 
     IAF_flow = IAF(input_size, z_dim=z_dim, h_dim=z_dim, hidden_layers=hidden_layers, nstep=5, device=device)
-    # decoder = Decoder_multiclass(z_dim=z_dim, n_category=n_cat,hidden_layer_MNN=hidden_layer_MNN)
-    decoder = Decoder_VAE(z_dim=z_dim, hidden_layers=[32,32])
+    decoder = Decoder_multiclass(z_dim=z_dim, n_category=n_cat,hidden_layer_MNN=hidden_layer_MNN)
+    # decoder = Decoder_VAE(z_dim=z_dim, hidden_layers=[32,32])
     nu = Nu(z_dim=z_dim, ncov=ncov, hidden_layers=[32,32], marginal=True)
 
     decoder.to(device)
