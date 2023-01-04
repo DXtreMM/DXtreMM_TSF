@@ -15,3 +15,10 @@ Anomaly detection results are saved in same folder
 Forecaster modules training and inference implementaion is given in extreme_gpd folder
 
 extreme_gpd_3cls.ipynb invokes training function and infers predicton of unseen data
+
+-----------------------
+1. install pytorch
+2. pip install -r requirements.txt
+3. change in code (file name and etc)
+ 
+
