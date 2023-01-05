@@ -438,8 +438,8 @@ def testing_VIEVT(train_test, run_count, dataset, IAF_flow, flow_path, decoder, 
         batch_z, likelihood_qzx = IAF_flow(batched_x.float())
         # batch_z, likelihood_qzx = IAF_flow(batched_x.float(), eps_.float())
         assert (batch_z != batch_z).any()== False
-        _ = decoder(batch_z)
-        # _, Hz = decoder(batch_z, N, lower_bound, output_Hz = True)
+        # _ = decoder(batch_z)
+        _, Hz = decoder(batch_z, N, lower_bound, output_Hz = True)
         # add average over eps_ to increase accuracy
         pred_risk_batch, likelihood_qzx= pred_avg_risk(batched_x, eps_dim, IAF_flow, decoder, device, n_avg=20)
         
