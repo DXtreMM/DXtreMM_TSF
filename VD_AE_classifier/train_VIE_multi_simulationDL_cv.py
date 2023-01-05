@@ -66,7 +66,7 @@ data_name='B_SPI_testing'
 lag=9
 num_prev = 5
 num_next = 5
-df = pd.read_csv('/home/iit/Downloads/1.B_SPI-20221003T071021Z-001/1.B_SPI/B_SPI_testing.csv')
+df = pd.read_csv('B_SPI_testing.csv')
 time_series = df['SPI1'].to_numpy()
 
 ##==============================================
