@@ -291,6 +291,7 @@ for (train_low, train_high), (test_low, test_high) in train_test_ranges:
     # validation on the original scale
     valid_loader = DataLoader(EVT_valid, batch_size=10000, shuffle=True)
 
+    print("Dataloading done")
 
     del train
     ## define aggressive training
@@ -329,7 +330,7 @@ for (train_low, train_high), (test_low, test_high) in train_test_ranges:
         
         return loss.item()
 
-
+    print("start training")
     # training process
 
     if __name__ == "__main__":
