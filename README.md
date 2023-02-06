@@ -19,6 +19,7 @@ extreme_gpd_3cls.ipynb invokes training function and infers predicton of unseen 
 -----------------------
 1. install pytorch
 2. pip install -r requirements.txt
-3. change in code (file name and etc)
+3. Change parameters according to your data in train_VIE_multi_simulationDL_cv.py file
+4. Get classification results and use that for forecasting module
  
 
