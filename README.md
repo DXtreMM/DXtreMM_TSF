@@ -22,6 +22,6 @@ extreme_gpd_3cls.ipynb invokes training function and infers predicton of unseen 
 3. Change parameters according to your data in train_VIE_multi_simulationDL_cv.py file
 4. Get classification results and use that for forecasting module
 
-Requirements file can be installed using conda environemnt by following instructions from [here]([https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html]) or using docker as given [here]([https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html])
+Requirements file can be installed using conda environemnt by following instructions from [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or using docker as given [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
  
 
