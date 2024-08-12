@@ -1,20 +1,27 @@
 # DXtreMM_TSF
 
-Repository for paper, "Deep Extreme Mixture Model for Time series forecasting"
+Repository for paper, **"Deep Extreme Mixture Model for Time series forecasting"** CIKM conference, 2022 [[paper]](\href:https://dl.acm.org/doi/10.1145/3511808.3557282)
 
-This provides implementation of VD-AE classifier model and forecaster modules
+This model combines two modules:
 
-VD-AE classifier is the extension of work titled "Variational Disentanglement for Rare Event Modeling". GPD prior is extended for left extremes. The complete implemetation is given in VD_AE_classifer folder
+    1) Variation Disentangled Autoencoder based classifier
+    2) GPD based and Normal Forecaster modules
 
-training the classifier model can be done by executing
+**VD-AE classifier** is the extension of work titled "Variational Disentanglement for Rare Event Modeling". GPD prior is extended for left extremes. 
+
+The complete implemetation of classifier modules is given in VD_AE_classifer folder
+
+Training the classifier model can be done by executing
 
 python train_VIE_multi_simulationDL_cv.py
 
 Anomaly detection results are saved in same folder
 
-Forecaster modules training and inference implementaion is given in extreme_gpd folder
+**Forecaster modules** training and inference implementaion is given in extreme_gpd folder
 
 extreme_gpd_3cls.ipynb invokes training function and infers predicton of unseen data
+
+Step by step procedure for working with code is as follows:
 
 -----------------------
 1. install pytorch (you can follow instructions from [here](https://pytorch.org/get-started/locally/)
