@@ -1,6 +1,6 @@
 # DXtreMM_TSF
 
-Repository for paper, **"Deep Extreme Mixture Model for Time series forecasting"** CIKM conference, 2022 [[paper]](\href:https://dl.acm.org/doi/10.1145/3511808.3557282)
+Repository for paper, **"Deep Extreme Mixture Model for Time series forecasting"** CIKM conference, 2022 [paper](https://dl.acm.org/doi/10.1145/3511808.3557282)
 
 This model combines two modules:
     1) Variation Disentangled Autoencoder based classifier
