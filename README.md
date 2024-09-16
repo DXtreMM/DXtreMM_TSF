@@ -26,7 +26,7 @@ Step by step procedure for working with code is as follows:
 
 -----------------------
 ```
-1. install pytorch (you can follow instructions from [here](https://pytorch.org/get-started/locally/)
+1. install pytorch (you can follow instructions from [here](https://pytorch.org/get-started/locally/))
 2. pip install -r requirements.txt
 3. Change parameters according to your data in train_VIE_multi_simulationDL_cv.py file
 4. Get classification results and use that for forecasting module
